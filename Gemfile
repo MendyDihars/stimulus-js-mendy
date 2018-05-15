@@ -11,6 +11,7 @@ gem 'jbuilder', '~> 2.5'
 gem 'bootsnap', '>= 1.1.0', require: false
 gem 'devise'
 gem 'faker'
+gem 'pundit'
 
 # FRONT END
 gem 'coffee-rails', '~> 4.2'
