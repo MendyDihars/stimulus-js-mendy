@@ -1,0 +1,9 @@
+<div data-controller='hello' style='width: 100%;'>
+  <div class="d-flex justify-content-center align-items-center" style='border-right: 1px solid black; height: 100vh;' data-target='hello.body'>
+    <button class="hidden btn btn-danger" data-target='hello.open' data-action='click->hello#showButton'>Open</button>
+    <form action="#" data-target='hello.form'>
+      <input type="text" data-target="hello.name" placeholder="Write color">
+      <button type='submit' class="btn btn-warning ml-5 mt-3" style='display: block' data-action='hello#submit'>Change !</button>
+    </form>
+  </div>
+</div>
