@@ -26,4 +26,6 @@
 
 <br>
 
-<%= link_to 'New Task', new_task_path %>
+<% if policy(Task).create? %>
+  <%= link_to 'New Task', new_task_path %>
+<% end %>
